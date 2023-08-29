@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.8125rem;
+    height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 1.25rem;
+    gap: 1.875rem;
+    height: 100%;
+}
+
+.daniel {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: hsl(263, 55%, 52%);
+    padding: 1.875rem;
+    border-radius: 0.9375rem;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 25rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.0625rem 0.1875rem 0rem, rgba(0, 0, 0, 0.06) 0rem 0.0625rem 0.125rem 0rem;
+}
+
+.card-head {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.daniel img {
+    border-radius: 50%;
+    border: 0.125rem solid hsl(217, 19%, 35%);
+}
+
+h2 {
+    color: hsl(0, 0%, 81%);
+}
+
+h4 {
+    color: hsla(0, 0%, 81%, 0.5);
+}
+
+.daniel .comment {
+    font-size: 1.25rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.daniel p {
+    color: hsla(0, 0%, 81%, 0.5);
+    margin-top: 1.25rem;
+}
+
+.jonathan {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background: hsl(217, 19%, 35%);
+    padding: 1.25rem;
+    border-radius: 0.9375rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.0625rem 0.1875rem 0rem, rgba(0, 0, 0, 0.06) 0rem 0.0625rem 0.125rem 0rem;
+}
+
+.jonathan img {
+    border-radius: 50%;
+    border: 0.125rem solid hsl(210, 46%, 95%);
+}
+
+.jonathan .comment {
+    font-size: 1.5625rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.jonathan p {
+    color: hsla(0, 0%, 81%, 0.5);
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
+}
+
+.kira {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.9375rem;
+    padding: 1.875rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.0625rem 0.1875rem 0rem, rgba(0, 0, 0, 0.06) 0rem 0.0625rem 0.125rem 0rem;
+}
+
+.kira img {
+    border-radius: 50%;
+}
+
+.kira h2 {
+    color: hsl(217, 19%, 35%);
+}
+
+.kira h4 {
+    color: hsla(217, 19%, 35%, 0.5);
+}
+
+.kira .comment {
+    font-size: 1.5625rem;
+    color: hsl(217, 19%, 35%);
+}
+
+.kira p {
+    color: hsl(217, 19%, 35%, 0.8);
+    margin-top: 1.25rem;
+    line-height: 1.5;
+    font-size: 0.9375rem;
+}
+
+
+
+.jeanette {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.25rem;
+    border-radius: 0.9375rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.0625rem 0.1875rem 0rem, rgba(0, 0, 0, 0.06) 0rem 0.0625rem 0.125rem 0rem;
+}
+
+.jeanette h2 {
+    color: hsl(219, 29%, 14%);
+}
+
+.jeanette h4 {
+    color: hsla(217, 19%, 35%, 0.6);
+}
+
+.jeanette .comment {
+    font-size: 1.25rem;
+    color: hsl(217, 19%, 35%);
+}
+
+.jeanette p {
+    color: hsla(217, 19%, 35%, 0.7);
+    margin-top: 0.625rem;
+}
+
+.jeanette img {
+    border-radius: 50%;
+}
+
+.patrick {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: hsl(219, 29%, 14%);
+    padding: 1.25rem;
+    border-radius: 0.9375rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.0625rem 0.1875rem 0rem, rgba(0, 0, 0, 0.06) 0rem 0.0625rem 0.125rem 0rem;
+}
+
+.patrick img {
+    border-radius: 50%;
+    border: 0.1875rem solid hsl(263, 55%, 52%);
+}
+
+.patrick .comment {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.25rem;
+}
+
+.patrick p {
+    color: hsl(0, 0%, 81%);
+    margin-top: 0.625rem;
+}
+
+.patrick h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .daniel, .jonathan, .kira, .jeanette, .patrick {
+        grid-column-start: auto;
+        grid-column-end: auto;
+        grid-row-start: auto;
+        grid-row-end: auto;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: auto;
+    }
+ }
+@media (max-width: 768px) {
+    body {
+        font-size: 0.75rem; 
+    }
+    
+}
+@media (max-width: 768px) {
+    .daniel {
+        background-position: center top; 
+        background-position-x: 0; 
+    }
+    
+}
+@media (max-width: 768px) {
+    .container {
+        gap: 1rem; 
+    }
+    .daniel, .jonathan, .kira, .jeanette, .patrick {
+        margin: 0.5rem; 
+    }
+   
+}
